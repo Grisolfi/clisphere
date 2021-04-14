@@ -9,7 +9,7 @@ Is strongly recommended that you create a virtualenv, so you should follow the s
 1. `virtualenv -p python3 env`
 1. `source env/bin/activate`
 1. `pip3 install requirements.txt`
-1. `./prompt.py -s HOST -u USER [-p PASSWORD] [-o PORT]`
+1. `python3 prompt.py -s HOST -u USER [-p PASSWORD] [-o PORT]`
 
 ## References
 
