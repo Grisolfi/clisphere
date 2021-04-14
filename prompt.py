@@ -4,6 +4,7 @@ from pyVim.connect import Disconnect
 from pyVmomi import vim
 from pyVmomi.VmomiSupport import ManagedObject
 from subprocess import call
+
 import sys, tempfile, os
 import argparse
 import getpass
@@ -46,7 +47,7 @@ class Prompt(Cmd):
         pass
     
     def default(self, s):
-        print('KSphere: {0}: command not found'.format(s))
+        print('CLISphere: {0}: command not found'.format(s))
 
     def preloop(self):
         self.ruler = '-'
